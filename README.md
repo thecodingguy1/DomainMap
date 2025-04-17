@@ -1,4 +1,4 @@
-**URL Scanner**
+**Domain Map**
 
 A command‑line tool to scan a list of domains and report on their HTTP status codes, page titles, content sizes and IP addresses. It can follow simple redirects, group results by IP, generate a chart, and optionally throttle request rate.
 
