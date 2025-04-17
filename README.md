@@ -1,4 +1,4 @@
-URL Scanner
+**URL Scanner**
 
 A command‑line tool to scan a list of URLs and report on their HTTP status codes, page titles, content sizes and IP addresses. It can follow simple redirects, group results by IP, generate a terminal chart, and optionally throttle request rate.
 
@@ -30,39 +30,39 @@ Requirements
 
 Install core dependencies with:
 
-pip install httpx colorama tqdm
+``pip install httpx colorama tqdm``
 
 And any of the optional extras as needed:
 
-pip install tldextract plotext ipwhois pyperclip
+``pip install tldextract plotext ipwhois pyperclip``
 
 Usage
 
-./script.py [options]
+``./script.py [options]``
 
 If you omit -i/--input, URLs will be read from your clipboard (one URL per line). You must have pyperclip installed for clipboard mode.
 
 Basic scan
 
-./script.py -i urls.txt
+``./script.py -i urls.txt``
 
 Scans each URL listed in urls.txt, prints a colorized report to the console.
 
 Save report to file
 
-./script.py -i urls.txt -o report.txt
+``./script.py -i urls.txt -o report.txt``
 
 Writes the plain‑text version of the report (no ANSI colors) to report.txt.
 
 Enable chart & IP grouping
 
-./script.py -i urls.txt --report
+``./script.py -i urls.txt --report``
 
 After scanning, prints a bar chart of “domains per IP” (requires plotext) and groups domains by IP address, with optional WHOIS info (requires ipwhois).
 
 Throttle request rate
 
-./script.py -i urls.txt --rate 5
+``./script.py -i urls.txt --rate 5``
 
 Limits the overall request rate to 5 requests per second. Useful to avoid overwhelming servers or hitting rate limits.
 
