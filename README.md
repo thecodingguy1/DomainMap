@@ -24,25 +24,25 @@ And any of the optional extras as needed:
 
 Usage
 
-``./script.py [options]``
+``domainmap.py [options]``
 
-If you omit -i/--input, URLs will be read from your clipboard (one URL per line). You must have pyperclip installed for clipboard mode.
+__**If you omit -i/--input, URLs will be read from your clipboard (one URL per line).**__
 
 Basic scan
 
-``./script.py -i urls.txt``
+``domainmap.py -i urls.txt``
 
 Scans each URL listed in urls.txt, prints a colorized report to the console.
 
 Save report to file
 
-``./script.py -i urls.txt -o report.txt``
+``domainmap.py -i urls.txt -o report.txt``
 
 Writes the plain‑text version of the report (no ANSI colors) to report.txt.
 
 Enable chart & IP grouping
 
-``./script.py -i urls.txt --report``
+``domainmap.py -i urls.txt --report``
 
 After scanning, prints a bar chart of “domains per IP” (requires plotext) and groups domains by IP address, with optional WHOIS info (requires ipwhois).
 
