@@ -1,21 +1,7 @@
 **URL Scanner**
 
-A command‑line tool to scan a list of URLs and report on their HTTP status codes, page titles, content sizes and IP addresses. It can follow simple redirects, group results by IP, generate a terminal chart, and optionally throttle request rate.
+A command‑line tool to scan a list of domains and report on their HTTP status codes, page titles, content sizes and IP addresses. It can follow simple redirects, group results by IP, generate a chart, and optionally throttle request rate.
 
-Features
-	•	Read URLs from a text file or from the clipboard
-	•	Fetch each URL (with a 5 s timeout), extract:
-	•	HTTP status code
-	•	Final URL (after 301/303 redirects)
-	•	Page <title>
-	•	Content size in bytes
-	•	Host IP address
-	•	Colorized console report, sorted by status code
-	•	Save plain‑text report to a file with -o
-	•	Group results by IP, perform WHOIS lookups (if ipwhois is installed)
-	•	Draw a bar chart in the terminal (if plotext is installed)
-	•	Throttle concurrent requests with --rate (requests per second)
-	•	Configure number of worker threads (default: 10)
 
 Requirements
 	•	Python 3.6+
