@@ -54,20 +54,16 @@ Limits the overall request rate to 5 requests per second. Useful to avoid overwh
 
 Full example
 
-./domainmap.py \
-  -i urls.txt \
-  -o scan_results.txt \
-  --report \
-  --rate 2
+``./domainmap.py -i urls.txt -o scan_results.txt --report --rate 3``
 
-Scans urls.txt at up to 2 req/s, generates a console chart and IP grouping, and writes the report to scan_results.txt.
+Scans urls.txt at up to 3 req/s, generates a console chart and IP grouping, and writes the report to scan_results.txt.
 
 Command‑Line Options
 
 Option	Description
 -i, --input FILE	Path to a file with one URL per line. If omitted, URLs are read from the clipboard.
 -o, --output FILE	Write the final plain‑text report to this file.
---report	After scanning, show a terminal bar chart and group domains by IP.
+--report	After scanning, show a terminal bar chart and group domains by IP. (deprecated, will create report by default now.)
 --rate N	Limit requests to N requests per second.
 
 Notes
