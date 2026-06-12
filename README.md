@@ -12,17 +12,19 @@ It checks:
 - Redirect count
 - Response time
 
+
 ## Install
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPO](https://github.com/thecodingguy1/DomainMap/).git \
+git clone https://github.com/thecodingguy1/DomainMap.git \
 cd DomainMap \
 pip install -r requirements.txt
 ```
 
-Scan from file
+## Usage
+<img width="745" height="422" alt="help" src="https://github.com/user-attachments/assets/f1994616-5712-4e21-9cd8-41cb3baf1544" />
 
-``python3 url_status_scanner.py -i urls.txt``
+
 
  
  linkmap will scan from clipboard automatically if urls are detected.
