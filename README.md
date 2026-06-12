@@ -22,7 +22,8 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-<img width="745" height="422" alt="help" src="https://github.com/user-attachments/assets/f1994616-5712-4e21-9cd8-41cb3baf1544" />
+<img width="738" height="422" alt="help" src="https://github.com/user-attachments/assets/2ef5d469-a917-4e9c-91c3-776e5e6e88b3" />
+
 
 
 
