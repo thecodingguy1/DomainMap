@@ -1,0 +1,7 @@
+httpx
+colorama
+tqdm
+tldextract
+plotext
+ipwhois
+pyperclip
